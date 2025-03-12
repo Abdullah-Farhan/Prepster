@@ -4,6 +4,7 @@ import logo from "@/assets/svg/logo.svg";
 import EmailInput from "@/components/emailinput";
 import hero from "@/assets/svg/hero.svg";
 import Links from "@/components/links";
+import hexagon from "@/assets/svg/hexagon.svg";
 
 export default function Home() {
   return (
@@ -35,6 +36,7 @@ export default function Home() {
         <div className="bg-[#265DF7] w-40 h-40 ml-40 rounded-full absolute blur-[120px] mt-32 -z-0"></div>
         <Image src={hero} alt="hero" className="relative z-50" />
       </section>
+      <Image src={hexagon} alt="hero" className="absolute -right-5 md:right-32 -top-14 -z-50" />
     </div>
   );
 }
