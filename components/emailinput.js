@@ -38,6 +38,7 @@ const EmailInput = () => {
       });
 
       setIsDisabled(false);
+      setEmail("");
       toast.success("You've been added to the waitlist!");
 
     } catch (error) {
@@ -45,7 +46,7 @@ const EmailInput = () => {
     }
   };
   return (
-    <form onSubmit={addUser} className="w-3/4">
+    <form onSubmit={addUser} className="md:w-3/4">
       <input
         type="email"
         placeholder="placeholder@email.com"
@@ -54,9 +55,9 @@ const EmailInput = () => {
         onChange={(e) => setEmail(e.target.value)}
         required
       />
-      <div className="w-full h-[3px] bg-gradient-to-r from-[#265DF7] to-[#6EC8FF]"></div>
+      <div className="w-full h-[3px] bg-gradient-custom"></div>
       <input
-        className="cursor-pointer text-white bg-gradient-to-r from-[#265DF7] to-[#6EC8FF] rounded-xl px-16 py-1.5 text-2xl font-semibold mt-5 relative z-50"
+        className="cursor-pointer text-white bg-gradient-custom rounded-xl px-16 py-1.5 text-2xl font-semibold mt-7 relative z-50"
         disabled={isDisabled}
         type="submit"
         value="SUBMIT"

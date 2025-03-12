@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -24,3 +25,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@theme {
+  --color-primary: #265DF7;
+  --color-secondary: #151C2D;
+}
+
+.bg-gradient-custom {
+  background: linear-gradient(to right, var(--color-primary), #6EC8FF);
+}

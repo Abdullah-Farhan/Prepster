@@ -16,7 +16,6 @@
     "react-hot-toast": "^2.5.2"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.0.13",
-    "tailwindcss": "^4"
+    "@tailwindcss/postcss": "^4.0.13"
   }
 }
