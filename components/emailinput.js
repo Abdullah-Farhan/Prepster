@@ -45,7 +45,7 @@ const EmailInput = () => {
     }
   };
   return (
-    <form onSubmit={addUser}>
+    <form onSubmit={addUser} className="w-3/4">
       <input
         type="email"
         placeholder="placeholder@email.com"
@@ -56,9 +56,10 @@ const EmailInput = () => {
       />
       <div className="w-full h-[3px] bg-gradient-to-r from-[#265DF7] to-[#6EC8FF]"></div>
       <input
-        className="cursor-pointer text-white bg-gradient-to-r from-[#265DF7] to-[#6EC8FF] rounded-2xl px-10 py-3 text-2xl font-bold mt-5 relative z-50"
+        className="cursor-pointer text-white bg-gradient-to-r from-[#265DF7] to-[#6EC8FF] rounded-xl px-16 py-1.5 text-2xl font-semibold mt-5 relative z-50"
         disabled={isDisabled}
         type="submit"
+        value="SUBMIT"
       />
     </form>
   );

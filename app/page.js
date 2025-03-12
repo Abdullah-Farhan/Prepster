@@ -23,7 +23,7 @@ export default function Home() {
         <div className="w-3/4">
           <EmailInput />
         </div>
-        <div className="bg-[#265DF7] w-40 h-40 -ml-10 -mt-4 rounded-full absolute blur-[200px] -z-0"></div>
+        <div className="bg-[#265DF7] w-40 h-40 -ml-10 -mt-4 rounded-full absolute blur-[200px] -z-50"></div>
         <p className="font-semibold text-[#151C2D] opacity-60 mt-11 mb-2">
           FOLLOW US
         </p>
